@@ -1,6 +1,18 @@
 [submodule "41223153"]
 	path = 41223153
 	url = https://github.com/41223153/wcm2024.git
+<<<<<<< HEAD
 [submodule "41223136"]
 	path = 41223136
 	url = https://github.com/41223136/wcm2024.git
+=======
+[submodule "41223121"]
+	path = 41223121
+	url = https://github.com/yan21ed/wcm2024.git
+[submodule "wcm2024"]
+	path = wcm2024
+	url = https://github.com/Ren911308/wcm2024
+[submodule "41223126"]
+	path = 41223126
+	url = https://github.com/Ren911308/wcm2024.git
+>>>>>>> 038eee617375493ac4ebfcb18044c479ded519e3
