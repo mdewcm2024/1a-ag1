@@ -16,3 +16,6 @@
 [submodule "41223120"]
 	path = 41223120
 	url = https://github.com/41223120/wcm2024.git
+[submodule "Manto8"]
+	path = Manto8
+	url = https://github.com/Manto8/wcm2024.git
