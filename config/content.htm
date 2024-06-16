@@ -212,7 +212,117 @@
 <p><a href="https://github.com/yan21ed/wcm2024">41223121</a></p>
 <p><a href="https://github.com/Ren911308/wcm2024">41223126</a></p>
 <p><a href="https://github.com/41223153/wcm2024">41223153</a></p>
-<h1>分組專案</h1><h1>期末專案</h1>
+<h1>分組專案</h1>
+<p>1.了解基本 html 語法</p>
+<p>1.學習html的基本架構</p>
+<p data-sourcepos="5:1-5:8"><span>HTML 文檔由元素組成，</span><span>元素由標籤定義。</span><span>每個標籤都有其自己的含義和用途。</span><span>例如，</span><code class="">&lt;p&gt;</code><span> 標籤用於創建段落，</span><span>而 </span><code class="">&lt;h1&gt;</code><span> 標籤用於創建標題。</span></p>
+<p data-sourcepos="5:1-5:8"><span>2.練習創建簡單的html頁面</span></p>
+<p data-sourcepos="5:1-5:8"><span>了解html基本架構，就可以開始練習創建簡單的html頁面。需要有一個文本編輯器和一個Web瀏覽器。</span></p>
+<p data-sourcepos="5:1-5:8"><span>打開編輯器並創建新文件，將以下代碼保存為index.html：</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_930253">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">&lt;!DOCTYPE html&gt;</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">&lt;</code><code class="html keyword">html</code><code class="html plain">&gt;</code></div>
+<div class="line number3 index2 alt2"><code class="html plain">&lt;</code><code class="html keyword">head</code><code class="html plain">&gt;</code></div>
+<div class="line number4 index3 alt1"><code class="html spaces">  </code><code class="html plain">&lt;</code><code class="html keyword">title</code><code class="html plain">&gt;My First Web Page&lt;/</code><code class="html keyword">title</code><code class="html plain">&gt;</code></div>
+<div class="line number5 index4 alt2"><code class="html plain">&lt;/</code><code class="html keyword">head</code><code class="html plain">&gt;</code></div>
+<div class="line number6 index5 alt1"><code class="html plain">&lt;</code><code class="html keyword">body</code><code class="html plain">&gt;</code></div>
+<div class="line number7 index6 alt2"><code class="html spaces">  </code><code class="html plain">&lt;</code><code class="html keyword">h1</code><code class="html plain">&gt;This is my first heading&lt;/</code><code class="html keyword">h1</code><code class="html plain">&gt;</code></div>
+<div class="line number8 index7 alt1"><code class="html spaces">  </code><code class="html plain">&lt;</code><code class="html keyword">p</code><code class="html plain">&gt;This is a paragraph of text.&lt;/</code><code class="html keyword">p</code><code class="html plain">&gt;</code></div>
+<div class="line number9 index8 alt2"><code class="html plain">&lt;/</code><code class="html keyword">body</code><code class="html plain">&gt;</code></div>
+<div class="line number10 index9 alt1"><code class="html plain">&lt;/</code><code class="html keyword">html</code><code class="html plain">&gt;</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p data-sourcepos="5:1-5:8"></p>
+<p data-sourcepos="5:1-5:8">再打開Web瀏覽器並將文件拖到瀏覽器窗口，就可以看到頁面了。</p>
+<p data-sourcepos="5:1-5:8">2.了解如何在頁面導入 Javascript 程式</p>
+<p data-sourcepos="5:1-5:8"></p>
+<ul>
+<li><strong>內聯 JavaScript</strong>：將 JavaScript 程式碼直接寫在 HTML 元素的 <code>onclick</code> 等事件屬性中。</li>
+<li><strong>內嵌 JavaScript</strong>：在 HTML 文件的 <code>&lt;script&gt;</code> 標籤中直接寫 JavaScript 程式碼。</li>
+<li><strong>外部 JavaScript</strong>：將 JavaScript 程式碼寫在一個單獨的 <code>.js</code> 文件中，然後在 HTML 文件中使用 <code>&lt;script&gt;</code> 標籤引用該文件。</li>
+</ul>
+<p>1.內聯 JavaScript</p>
+<p>這種方式將 JavaScript 代碼直接嵌入到 HTML 元素中，例如：</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="zh-Hant"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;內聯 JavaScript 範例&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button onclick="alert('按鈕被點擊了')"&gt;點我&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>2.內嵌 JavaScript</p>
+<p>將 JavaScript 代碼寫在 <code>&lt;script&gt;</code> 標籤內，並將其放在 HTML 文件的 <code>&lt;head&gt;</code> 或 <code>&lt;body&gt;</code> 部分中。例如：</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="zh-Hant"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;內嵌 JavaScript 範例&lt;/title&gt;
+    &lt;script&gt;
+        function showMessage() {
+            alert('按鈕被點擊了');
+        }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button onclick="showMessage()"&gt;點我&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>3.外部 JavaScript</p>
+<p>將 JavaScript 代碼寫在一個單獨的 <code>.js</code> 文件中，例如 <code>script.js</code>，然後在 HTML 文件中引用該文件：</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">function showMessage() {
+    alert('按鈕被點擊了');
+}
+</pre>
+<p>HTML 文件內容：</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="zh-Hant"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;外部 JavaScript 範例&lt;/title&gt;
+    &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;button onclick="showMessage()"&gt;點我&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p></p>
+<p><span style="background-color: #ffff00;">注意事項</span></p>
+<ol>
+<li><strong>文件位置</strong>：確保外部 JavaScript 文件的路徑正確。</li>
+<li><strong>加載順序</strong>：若 JavaScript 代碼需要操作 DOM 元素，請確保在 DOM 加載完畢後執行代碼。例如，可以將 <code>&lt;script&gt;</code> 標籤放在 <code>&lt;body&gt;</code> 結束標籤之前，或使用 <code>window.onload</code> 事件。</li>
+<li><strong>調試</strong>：使用瀏覽器開發者工具來調試和檢查 JavaScript 代碼。</li>
+</ol>
+<p></p>
+<p></p><h1>期末專案</h1>
 <p>可至<a href="https://41223136.github.io/wcm2024/content/%E6%9C%9F%E6%9C%AB%E5%B0%88%E6%A1%88.html">這邊</a>查看期末專案</p>
 <p></p><h1>cmsimde</h1>
 <p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
